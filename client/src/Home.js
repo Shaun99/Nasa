@@ -73,6 +73,7 @@ class Home extends Component {
         console.log(error.response.data.msg);
         this.setState({ Loading: true });
       });
+      
     // Save search keyword in history
     const query1 = `/saveSearch?title=${this.input.value}`;
     console.log(query1);
