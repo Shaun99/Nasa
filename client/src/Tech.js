@@ -34,6 +34,7 @@ class Tech extends Component {
     var items = this.state.tech;
     return (
       <>
+      <title>Nasa</title>
         <Link style={{ color: " #d6b3b3" }} to={{ pathname: `/home` }}>
           <button className="mars_back_btn">Back to Home</button>
         </Link>
