@@ -48,24 +48,13 @@ app.get("/getstar", (req, res) => {
     });
 });
 
-//localhost:5000/getstar?title=date
+//localhost:5000/gettech
 app.get("/gettech", (req, res) => {
   const querystr = `https://api.nasa.gov/techtransfer/patent/?engine&api_key=${api_key}`;
 
   axios
     .get(querystr)
     .then((response) => {
-      // const tech = new Tech({
-      //   tech       : response.data.results[0],
-      // });
-      // nasa
-      //   .save()
-      //   .then((response) => {
-      //     res.status(200).json(response);
-      //   })
-      //   .catch((error) => {
-      //     res.status(400).json(error);
-      //   });
       res.send(response.data);
     })
     .catch((error) => {

@@ -260,3 +260,12 @@ body {
   margin-top: 5px;
 }
 
+.tech{
+  background-color: #00000028;
+  padding: 20px;
+  text-align: justify;
+}
+
+.techinfo{
+  color: rgb(226, 179, 126);
+}

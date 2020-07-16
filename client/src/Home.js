@@ -181,7 +181,7 @@ class Home extends Component {
             {/* View Mars Weather button */}
             <Link style={{ color: "white" }} to={{ pathname: `/tech` }}>
               <button className="marsbtn">
-                Click here to check for latest Mars Weather
+                Click here to view Mars Weather and TechTransfer 
               </button>
             </Link>
           </div>

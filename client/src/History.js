@@ -76,7 +76,14 @@ class History extends Component{
                 </Link>
             
                 <center>
-                    <h2> ~ APOD Search History ~</h2>
+                    <h2>
+                    <img
+						src="https://image.flaticon.com/icons/svg/2406/2406352.svg"
+						width="40"
+						height="auto"
+					/> 
+                   &nbsp;  ~ APOD Search History ~
+                    </h2>
                     
                     <hr/>
                     <ReactTable

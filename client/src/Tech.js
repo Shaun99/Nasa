@@ -34,7 +34,7 @@ class Tech extends Component {
     var items = this.state.tech;
     return (
       <>
-      <title>Nasa</title>
+     
         <Link style={{ color: " #d6b3b3" }} to={{ pathname: `/home` }}>
           <button className="mars_back_btn">Back to Home</button>
         </Link>
@@ -49,13 +49,30 @@ class Tech extends Component {
             frameborder="0"
           ></iframe>
         </center>
-        <br></br>
-
+        <br/>
+        <hr/>
+        <center>
+       
+        <h2>  
+          <img
+						src="https://image.flaticon.com/icons/svg/3203/3203410.svg"
+						width="40"
+						height="auto"
+					/> 
+          &nbsp; - Nasa Tech Transfer Info - &nbsp;
+          <img
+						src="https://image.flaticon.com/icons/svg/3203/3203410.svg"
+						width="40"
+						height="auto"
+					/>  
+          </h2>
+        </center>
+        <hr/>
         {items.map((item) => (
-          <div>
-              <p>Patent Code: {item[1]}</p>
-              <p>Patent Item: {item[2]}</p>
-              <p>Description: {item[3]}</p>
+          <div className="tech">
+              <p><b className="techinfo">Patent Code: </b> {item[1]}</p>
+              <p><b className="techinfo">Patent Item: </b> {item[2]}</p>
+              <p><b className="techinfo">Description: </b><br/> {item[3]}</p>
           </div>
         ))}
       </>
