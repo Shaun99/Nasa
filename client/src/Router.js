@@ -9,7 +9,7 @@ import Login from './Login';
 import Register from './Register';
 import Logout from './Logout';
 
-//Router use to route to EachRecipe.js page (show detail of selected recipe) and History.js page (show search history table)
+//Router use to route to multiple webpage 
 
 const Router = () => (
     <BrowserRouter>
