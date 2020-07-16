@@ -1,0 +1,262 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #55a378;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.quote{
+  color: #dbdbdd;
+}
+
+.main_header {
+  background-image: url("https://wallpapersite.com/images/wallpapers/earth-2560x1440-above-space-hd-6408.jpg");
+  background-size: 1300px 515px;
+  height: 515px;
+  color: #ffffff;
+}
+
+.main_navHeader{
+  background-color:  rgb(22, 41, 70);
+  padding: 5px;
+  width: 100%;
+  font-size: larger;
+}
+
+.home_header {
+  background-image: url("https://66.media.tumblr.com/ad5693e351f590970ae135bce8d13fea/tumblr_op6xyyCqPv1vsjcxvo1_r1_540.gifv");
+  height: 500px;
+  color: #ffffff;
+}
+
+.home_navHeader{
+  position: fixed;
+  background-color:  rgb(22, 27, 70);
+  padding: 5px;
+  width: 100%;
+  font-size: larger;
+  z-index: +1;
+}
+
+.username{
+  float: left;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+
+.search {
+  border-radius: 30px;
+  background-color: rgba(22, 27, 70, 0.664);
+  padding: 10px;
+}
+
+.keyword{
+  border-radius: 10px;
+  background-color: rgba(70, 25, 22, 0.548);
+  width: auto;
+  color: rgb(212, 148, 104);
+}
+
+.para{
+  color: #ebe3e3;
+}
+
+.reset{
+  background-color: #374139;
+  width: 100px;
+  border-radius: 15px;
+}
+
+.submitBtn {
+  background-color: #307272;
+  width: 250px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+ .display{
+   display: flex;
+ }
+
+ .marsbtn{
+  font-size: large;
+  text-align: center;
+  background-color: #2b68479a;
+  width: 250px;
+  padding: 25px;
+  border-radius: 30px;
+  white-space: pre-line;
+}
+
+.historybtn{
+  border-radius: 10px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+.history_back_btn{
+  background-color: #5c1d3d;
+  border-radius: 10px;
+  color: #d6b3b3;
+  font-size: large;
+  margin-left: 30px;
+  margin-top: 15px;
+  width: 20%;
+}
+
+.mars_back_btn{
+  background-color: #5c1d3d;
+  border-radius: 10px;
+  color: #d6b3b3;
+  font-size: large;
+  margin-left: 30px;
+  margin-top: 15px;
+  width: 20%;
+}
+
+.register_link_btn{
+  background-color: #1d4b31ad;
+  border-radius: 10px;
+  color: #fffdfd;
+  font-size: large;
+  margin-right: 30px;
+  margin-top: 50px;
+  width: 20%;
+  padding: 10px;
+}
+
+.login_link_btn{
+  background-color: #915720af;
+  border-radius: 10px;
+  color: #f7f5f5;
+  font-size: large;
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 20%;
+  padding: 10px;
+}
+.manage_button{
+  background-color: #12314b;
+  border-radius: 10px;
+  color: #fdf7f7;
+  font-size: large;
+  width: 40%;
+}
+
+.loadingBtn{
+  background-color: #231d5c;
+  border-radius: 10px;
+  color: #d6b3b3;
+  font-size: large;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.delete{
+  border-radius: 10px;
+  width: 30%;
+  color: rgb(207, 207, 207);
+  background-color: rgb(17, 53, 65);
+}
+
+.text {
+  font-size: xx-large;
+  padding-top: 50px;
+}
+
+.explanation{
+  color: #ebe3e3;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+  font-family: 'Righteous', cursive;
+  color: #d39494;
+  line-height: 1.7;
+  font-size: 19px;
+  background-color: #222222;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23424242' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.login{
+  background-color: #0000009f;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.loginbtn{
+  background-color: #cfa20f;
+  border-radius: 5px;
+  color: #000000;
+  font-size: large;
+  width: 40%;
+  padding: 5px;
+}
+
+.loginbackground{
+  background-image: url("https://i.pinimg.com/originals/08/3f/ce/083fce221878de72f0fdede553cd8545.jpg");
+  background-size: 1300px 600px;
+  height: 600px;
+}
+
+.register{
+  background-color: #0000009f;
+  height: 675px;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.registerbtn{
+  background-color: #6b0b30;
+  border-radius: 5px;
+  color: #fff9f9;
+  font-size: large;
+  width: 40%;
+  padding: 5px;
+}
+
+.registerbackground{
+  background-image: url("https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-size: 1300px 750px;
+  height: 750px;
+}
+
+.logout{
+  float: right;
+  padding-right: 15px;
+  margin-top: 5px;
+}
+
