@@ -55,17 +55,17 @@ app.get("/gettech", (req, res) => {
   axios
     .get(querystr)
     .then((response) => {
-      const tech = new Tech({
-        tech       : response.data.results[0],
-      });
-      nasa
-        .save()
-        .then((response) => {
-          res.status(200).json(response);
-        })
-        .catch((error) => {
-          res.status(400).json(error);
-        });
+      // const tech = new Tech({
+      //   tech       : response.data.results[0],
+      // });
+      // nasa
+      //   .save()
+      //   .then((response) => {
+      //     res.status(200).json(response);
+      //   })
+      //   .catch((error) => {
+      //     res.status(400).json(error);
+      //   });
       res.send(response.data);
     })
     .catch((error) => {
